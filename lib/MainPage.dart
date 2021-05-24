@@ -24,7 +24,7 @@ class _MainPageState extends State<MainPage>{
       Random random = new Random();
       int randomNumber = random.nextInt(1000);
       holder = randomNumber.toString();
-      print(holder);
+
     }
   }
   void btnOnClickTwo(String btnVal){
